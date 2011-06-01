@@ -1,0 +1,20 @@
+Name:                hoppity
+Version:             0.1
+Synopsis:            Solving Facebook puzzle
+-- Description:
+Build-Type:			Simple
+
+source-repository head
+  type:     git
+  location: git://github.com/antoinehersen/facebook_puzzles.git
+
+Executable hoppity
+    Build-depends:	base
+    Main-is:		Main.hs
+    Hs-Source-Dirs:	src
+
+  -- Modules not exported by this package.
+  -- Other-modules:
+
+  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
+  -- Build-tools:
