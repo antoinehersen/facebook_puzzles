@@ -1,3 +1,3 @@
 module Main (main) where
 
-main = print "Hello"
+main = putStrLn "Meep meep!"
